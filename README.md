@@ -12,11 +12,13 @@ Add case labels following those steps:
 3. Press enter
 4. Update the colors manually
 
+> These labels are applied for CASE repos. If you want to use them for a new CASE project or another project, you have to replace `CASE elements` labels with those of your own project elements.
+
 | Label | Colors |
 |-------|--------|
 | Area labels | #F7AB14 |
 | Release phase labels | #53CF9F |
-| Element labels |#500C98 |
+| CASE Element labels |#500C98 |
 | Bug | #d73a4a |
 | dependencies | #0366d6 |
 | duplicate | #cfd3d7 |
@@ -29,3 +31,4 @@ Add case labels following those steps:
 | refactor | #FEF2C0 |
 | regression | #D192BF |
 | wontfix | #ffffff |
+
