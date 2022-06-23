@@ -1,5 +1,8 @@
 # case-labels
 
+## Why thos labels
+Case label allows to bring consistency in our github projects. Each CASE repos must have these labels.
+
 ## Use those labels on a project
 
 Add case labels following those steps:
@@ -13,7 +16,7 @@ Add case labels following those steps:
 |-------|--------|
 | Area labels | #F7AB14 |
 | Release phase labels | #53CF9F |
-| Case element labels |#500C98 |
+| Element labels |#500C98 |
 | Bug | #d73a4a |
 | dependencies | #0366d6 |
 | duplicate | #cfd3d7 |
