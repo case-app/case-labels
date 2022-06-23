@@ -4,10 +4,10 @@
 
 Add case labels following those steps:
 
-1- Got to your github repository/issues/labels
-2- Open your console and past the script `labels.json`
-3- Press enter
-4- Update the colors manually
+1. Got to your github repository/issues/labels
+2. Open your console and past the script `labels.json`
+3. Press enter
+4. Update the colors manually
 
 | Label | Colors |
 |-------|--------|
