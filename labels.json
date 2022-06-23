@@ -10,6 +10,8 @@
  *  - Safari 12.1.2
  *  - macOS 10.14.6
  */
+
+
  function createLabel( label ) {
     document.querySelector( '.js-new-label-name-input' ).value = label.name;
     document.querySelector( '.js-new-label-description-input' ).value = label.description;
@@ -43,12 +45,12 @@ function createOrUpdate( label ) {
     
   {
     "name": "angular-library",
-    "description": null,
+    "description": "Area: Angular library",
     "color": "F7AB14"
   },
   {
     "name": "🏁  Beta",
-    "description": null,
+    "description": "Release phases: Feature in Beta version. To validate before any deployment / Release",
     "color": "53CF9F"
   },
   {
@@ -63,12 +65,12 @@ function createOrUpdate( label ) {
   },
   {
     "name": "client",
-    "description": null,
+    "description": "Area: Client",
     "color": "F7AB14"
   },
   {
     "name": "create-edit",
-    "description": null,
+    "description": "Case element: create-edit",
     "color": "500C98"
   },
   {
@@ -78,7 +80,7 @@ function createOrUpdate( label ) {
   },
   {
     "name": "Doc",
-    "description": null,
+    "description": "Area: Doc",
     "color": "F7AB14"
   },
   {
@@ -93,7 +95,8 @@ function createOrUpdate( label ) {
   },
   {
     "name": "💬  Exploring",
-    "description": null,
+    "description": "
+    Release phases: this function is under discussion / proposal. it shouldn't be an issue",
     "color": "53CF9F"
   },
   {
@@ -109,7 +112,7 @@ function createOrUpdate( label ) {
   {
     "name": "Website",
     "description": "Area: CASE website",
-    "color": "500C98"
+    "color": "F7AB14"
   },
   {
     "name": "🛠️. To implement",
@@ -118,7 +121,7 @@ function createOrUpdate( label ) {
   },
   {
     "name": "Filter",
-    "description": null,
+    "description": "Case element: Filter",
     "color": "500C98"
   },
   {
@@ -133,7 +136,7 @@ function createOrUpdate( label ) {
   },
   {
     "name": "inputs",
-    "description": null,
+    "description": "Case element: Inputs",
     "color": "500C98"
   },
   {
@@ -143,12 +146,12 @@ function createOrUpdate( label ) {
   },
   {
     "name": "List",
-    "description": null,
+    "description": "Case element: List",
     "color": "500C98"
   },
   {
     "name": "Nest library",
-    "description": null,
+    "description": "Area: Nest library",
     "color": "F7AB14"
   },
   {
@@ -163,7 +166,7 @@ function createOrUpdate( label ) {
   },
   {
     "name": "✅  Ready",
-    "description": null,
+    "description": "Release phases: The feature is deployed and ready to use by the users.",
     "color": "53CF9F"
   },
   {
@@ -178,32 +181,32 @@ function createOrUpdate( label ) {
   },
   {
     "name": "Schematics",
-    "description": null,
+    "description": "Area: Schematics",
     "color": "F7AB14"
   },
   {
     "name": "Server",
-    "description": null,
+    "description": "Area: Server",
     "color": "F7AB14"
   },
   {
     "name": "Setup",
-    "description": null,
+    "description": "Case element: Setup",
     "color": "500C98"
   },
   {
     "name": "Style",
-    "description": null,
+    "description": "Case element: Style",
     "color": "500C98"
   },
   {
     "name": "🎨  To design",
-    "description": null,
+    "description": "release phases: Provide UI",
     "color": "53CF9F"
   },
   {
     "name": "📄  To document",
-    "description": null,
+    "description": "Release phase: This feature is developed and needs documentation",
     "color": "53CF9F"
   }
 ].forEach( label => createOrUpdate( label ) );
