@@ -95,8 +95,7 @@ function createOrUpdate( label ) {
   },
   {
     "name": "💬  Exploring",
-    "description": "
-    Release phases: this function is under discussion / proposal. it shouldn't be an issue",
+    "description": "Release phases: this function is under discussion / proposal. it shouldn't be an issue",
     "color": "53CF9F"
   },
   {
